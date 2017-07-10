@@ -62,10 +62,16 @@
 
     <!-- Theme CSS -->
     <link href="css/agency.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/team.css">
 
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <!-- Modernizr JS -->
     <script src="js/modernizr-2.6.2.min.js"></script>
+
+    <!-- Bootstrap Jquery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
+    <script src="./js/team.js"></script>
     <!-- FOR IE9 below -->
     <!--[if lt IE 9]>
     <script src="js/respond.min.js"></script>
@@ -75,66 +81,63 @@
     <body>
 
         <!-- START #fh5co-header -->
-        <header id="fh5co-header-section" role="header" class="" >
+        <header class="navbar navbar-fixed-top" role="header" id="navbar">
             <div class="container">
 
-                
-
-                <!-- <div id="fh5co-menu-logo"> -->
-                    <!-- 로고 넣는곳 -->
-                    <h1 id="fh5co-logo" class="pull-left"><a href="index.html"><img src="images/logo.png" alt="Team Elysium Logo"></a></h1>
+                <!-- START #fh5co-menu-wrap -->
+                <nav id="fh5co-menu" role="navigation" style="margin-right: 0px; padding: 0.5em; height: 30px">
                     
-                    <!-- START #fh5co-menu-wrap -->
-                    <nav id="fh5co-menu-wrap" role="navigation">
-                        
-                        
-                        <ul class="sf-menu" id="fh5co-primary-menu">
-                            <li>
-                                <a href="index.html">Home</a>
-                            </li>
-                            <li >
-                                <a href="index.html">Products</a>
-                            </li>
-                            <li class="active">
-                                <a href="team.html">Team</a>
+                    <!-- 로고 넣는곳 -->
+                    <h1 id="fh5co-logo" class="pull-left" style="margin: 0px"><a href="index.html"><img src="images/logo.png" alt="Team Elysium Logo"></a></h1>
 
-                                <!--
-                                 <ul class="fh5co-sub-menu">
-                                    <li><a href="left-sidebar.html">Left Sidebar</a></li>
-                                    <li><a href="right-sidebar.html">Right Sidebar</a></li>
-                                    <li>
-                                        <a href="#" class="fh5co-sub-ddown">Free HTML5</a>
-                                        <ul class="fh5co-sub-menu">
-                                            <li><a href="http://freehtml5.co/preview/?item=build-free-html5-bootstrap-template" target="_blank">Build</a></li>
-                                            <li><a href="http://freehtml5.co/preview/?item=work-free-html5-template-bootstrap" target="_blank">Work</a></li>
-                                            <li><a href="http://freehtml5.co/preview/?item=light-free-html5-template-bootstrap" target="_blank">Light</a></li>
-                                            <li><a href="http://freehtml5.co/preview/?item=relic-free-html5-template-using-bootstrap" target="_blank">Relic</a></li>
-                                            <li><a href="http://freehtml5.co/preview/?item=display-free-html5-template-using-bootstrap" target="_blank">Display</a></li>
-                                            <li><a href="http://freehtml5.co/preview/?item=sprint-free-html5-template-bootstrap" target="_blank">Sprint</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">CSS3</a></li> 
-                                </ul>
-                                -->
-                            </li>
-                            <li><a href="contact.html">Contact</a></li>
-                        </ul>
-                    </nav>
-                <!-- </div> -->
+                    <ul class="sf-menu" id="fh5co-primary-menu">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li >
+                            <a href="index.html">Products</a>
+                        </li>
+                        <li class="active">
+                            <a href="team.html">Team</a>
+
+                            <!--
+                             <ul class="fh5co-sub-menu">
+                                <li><a href="left-sidebar.html">Left Sidebar</a></li>
+                                <li><a href="right-sidebar.html">Right Sidebar</a></li>
+                                <li>
+                                    <a href="#" class="fh5co-sub-ddown">Free HTML5</a>
+                                    <ul class="fh5co-sub-menu">
+                                        <li><a href="http://freehtml5.co/preview/?item=build-free-html5-bootstrap-template" target="_blank">Build</a></li>
+                                        <li><a href="http://freehtml5.co/preview/?item=work-free-html5-template-bootstrap" target="_blank">Work</a></li>
+                                        <li><a href="http://freehtml5.co/preview/?item=light-free-html5-template-bootstrap" target="_blank">Light</a></li>
+                                        <li><a href="http://freehtml5.co/preview/?item=relic-free-html5-template-using-bootstrap" target="_blank">Relic</a></li>
+                                        <li><a href="http://freehtml5.co/preview/?item=display-free-html5-template-using-bootstrap" target="_blank">Display</a></li>
+                                        <li><a href="http://freehtml5.co/preview/?item=sprint-free-html5-template-bootstrap" target="_blank">Sprint</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">CSS3</a></li> 
+                            </ul>
+                            -->
+                        </li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            <!-- </div> -->
 
             </div>
         </header>
         
-        
         <div id="fh5co-main">
+            <div class="container">
                 <div class="row" id="fh5co-works">
                     <!-- Team Section -->
                     <section id="team" class="bg-light-white">
-                        <div class="container">
+                        <div class="container"> 
                             <div class="row">
                                 <div class="col-lg-12 text-center">
                                     <h2 class="section-heading">Our Team</h2>
-                                    <h3 class="section-subheading text-muted">Perfect Team Elysium</h3>
+                                    <br>
+                                    <br>
                                 </div>
                             </div>
                             <div class="row">
@@ -196,7 +199,7 @@
                                     <div class="team-member">
                                         <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
                                         <h4>김주환</h4>
-                                        <p class="text-muted">Developer</p>
+                                        <p class="text-muted">Researcher</p>
                                         <ul class="list-inline social-buttons">
                                             <li><a href="mailto:kimjh7204@gmail.com"><i class="fa fa-envelope"></i></a>
                                             </li>
@@ -210,7 +213,7 @@
                                     <div class="team-member">
                                         <img src="img/team/2.jpg" class="img-responsive img-circle" alt="">
                                         <h4>이종원</h4>
-                                        <p class="text-muted">Developer</p>
+                                        <p class="text-muted">Researcher</p>
                                         <ul class="list-inline social-buttons">
                                             <li><a href="#"><i class="fa fa-envelope"></i></a>
                                             </li>
@@ -223,7 +226,7 @@
                                     <div class="team-member">
                                         <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
                                         <h4>안형빈</h4>
-                                        <p class="text-muted">Developer</p>
+                                        <p class="text-muted">Researcher</p>
                                         <ul class="list-inline social-buttons">
                                             <li><a href="#"><i class="fa fa-envelope"></i></a>
                                             </li>
@@ -236,7 +239,7 @@
                                     <div class="team-member">
                                         <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
                                         <h4>한상우</h4>
-                                        <p class="text-muted">Developer</p>
+                                        <p class="text-muted">Researcher</p>
                                         <ul class="list-inline social-buttons">
                                             <li><a href="#"><i class="fa fa-envelope"></i></a>
                                             </li>
@@ -264,7 +267,7 @@
                                     <div class="team-member">
                                         <img src="img/team/Sungho.jpg" class="img-responsive img-circle" alt="">
                                         <h4>송성호</h4>
-                                        <p class="text-muted">Developer</p>
+                                        <p class="text-muted">Researcher</p>
                                         <ul class="list-inline social-buttons">
                                             <li><a href="mailto:songsungho1@naver.com"><i class="fa fa-envelope"></i></a>
                                             </li>
@@ -277,7 +280,7 @@
                                     <div class="team-member">
                                         <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
                                         <h4>표상훈</h4>
-                                        <p class="text-muted">Developer</p>
+                                        <p class="text-muted">Researcher</p>
                                         <ul class="list-inline social-buttons">
                                             <li><a href="#"><i class="fa fa-envelope"></i></a>
                                             </li>
@@ -294,9 +297,8 @@
 
                 </div>
                 <!-- END row -->
-
-
-        </div>
+            </div>      
+ 
 
 
         <footer role="contentinfo" id="fh5co-footer">
@@ -360,8 +362,7 @@
         <script src="js/easyResponsiveTabs.js"></script>
         <!-- FastClick for Mobile/Tablets -->
         <script src="js/fastclick.js"></script>
-        <!-- Parallax -->
-        <script src="js/jquery.parallax-scroll.min.js"></script>
+
         <!-- Waypoints -->
         <script src="js/jquery.waypoints.min.js"></script>
         <!-- Main JS -->
