@@ -5,6 +5,9 @@
 #fh5co-hero:after {
 	background-image: none;
 }
+#fh5co-footer, #fh5co-footer::before{
+	background: none;
+}
 
 .sf-menu a{
 	font-size: 15px;
