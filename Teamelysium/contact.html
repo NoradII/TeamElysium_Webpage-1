@@ -185,8 +185,26 @@
 				</div>
 			</div>
 
-			<div class="col-md-12 col-xs-12 col-sm-12 text-center" >
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.979563282583!2d126.97018741508325!3d37.48480863656254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca034d0799f61%3A0x5e898bafbba4443a!2z7ISc7Jq47Yq567OE7IucIOuPmeyekeq1rCDsgqzri7nroZwxM-q4uCAxNQ!5e0!3m2!1sko!2skr!4v1499674167499&z=10" width="70%" height="450" frameborder="0" scrolling="no" style="border:1px solid;" allowfullscreen></iframe>
+			<div id="map" class="col-md-12 col-xs-12 col-sm-12 text-center">
+			<script type="text/javascript">
+				
+				 function initMap() { 
+			        var uluru = {lat: 37.484821, lng: 126.972378};
+			        var map = new google.maps.Map(document.getElementById('map'), {
+			          zoom: 18,
+			          center: uluru,
+			          scrollwheel:false,
+
+			        });
+			        var marker = new google.maps.Marker({
+			          position: uluru,
+			          map: map
+			        });
+			      }
+			</script>
+			 <script async defer
+    			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjEOfCClF5yUn_EfjDPVsvFUi3DZrRjzc&callback=initMap">
+    		</script>
 			</div>
 
 

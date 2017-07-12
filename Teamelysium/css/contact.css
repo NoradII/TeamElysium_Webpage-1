@@ -26,3 +26,8 @@ footer{
 #fh5co-footer::before{
 	content: none;
 }
+
+#map {
+	height: 400px;
+	width: 100%;
+}
