@@ -22,3 +22,21 @@
 #fh5co-footer::before{
 	content: none;
 }
+
+.heading2{
+	background-color: #90d7ea;
+	color: white;
+}
+
+.fh5co-category{
+	color: black;
+}
+
+.list-contents{
+	font-size: 12px;
+	text-align: left;
+}
+
+img{
+	pointer-events: none;
+}
