@@ -1,7 +1,7 @@
 /*
 //////////////////////////////////////////////////////
 
-FREE HTML5 TEMPLATE 
+FREE HTML5 TEMPLATE
 DESIGNED & DEVELOPED by FREEHTML5.CO
 
 //////////////////////////////////////////////////////
@@ -930,6 +930,7 @@ body.fh5co-mobile-menu-visible #fh5co-mobile-menu {
 #fh5co-footer {
   clear: both;
   position: relative;
+  padding: 4em 0 1em 0;
   background: #90d7ea;
   background: #f3f8f9;
   float: left;
@@ -938,6 +939,7 @@ body.fh5co-mobile-menu-visible #fh5co-mobile-menu {
   line-height: 20px;
 }
 #fh5co-footer::before {
+  content: '';
   position: absolute;
   left: 0;
   top: -4em;
@@ -1129,10 +1131,10 @@ body.fh5co-mobile-menu-visible #fh5co-mobile-menu {
   font-size: 18px;
 }
 
-/* 
+/*
 ========================================
 
-Components 
+Components
 
 ========================================
 */
