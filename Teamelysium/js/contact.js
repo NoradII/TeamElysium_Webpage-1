@@ -14,4 +14,7 @@ $(document).ready(function(){
           //$('#navbar').css('background-color', '#4bdca3');
        }
    });
+
 });
+
+
