@@ -31,7 +31,7 @@ if($_POST['name'] != "" && $_POST['message'] != "" && $_POST['email'] != "" && $
 	$headers .= "charset=utf-8\r\n"; 
 
 	// send email
-	mail("espark@teamelysium.kr", $subject, $msg, $headers);
+	mail("contact@teamelysium.kr", $subject, $msg, $headers);
 
 
 }else{
