@@ -23,3 +23,12 @@
 	color: #00d2a5;
 	font-size: 16px;
 }
+
+.team-img{
+	width: 80%;
+    border-radius: 100%;
+}
+
+.bg-light-white{
+	padding: 80px 0;
+}
