@@ -6,12 +6,11 @@ $(document).ready(function(){
    $(document).scroll(function() { 
       scroll_start = $(this).scrollTop();
       if(scroll_start > offset.top) { // 스크롤 내려갔을 때
-          $('#navbar').css('background-color', '#4bdca3');
-
-          //$('#fh5co-primary-menu').css('color', 'black'); 
+          $('#navbar').css('background-color', '#00d2a5');
+          $('#team').css('color', '#fff');
        } else {
-          $('#navbar').css('background-color', '#90d7ea');
-          //$('#navbar').css('background-color', '#4bdca3');
+          $('#navbar').css('background-color', '#fff');
+          $('#team').css('color', '#00d2a5');
        }
 
 
