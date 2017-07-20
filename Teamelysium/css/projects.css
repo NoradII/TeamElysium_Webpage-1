@@ -22,3 +22,8 @@ footer{
 #fh5co-footer::before{
 	content: none;
 }
+
+li.active a {
+    color: #00d2a5;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.08);
+}
