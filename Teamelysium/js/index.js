@@ -8,13 +8,13 @@ $(document).ready(function(){
       if(scroll_start > offset.top) { // 스크롤 내려갔을 때
           $('#navbar').css('background-color', '#00d2a5');
           $('#home').css('color', '#fff');
-          $('.navbar-toggle').css('border', '1px solid black');
-          $('.navbar-toggle').css('color', '#fff');
+          $('.navbar-toggle').css('background-color', '#f3f1f1');
+          $('.navbar-toggle').css('color', '#00d2a5');
        } else {
           $('#navbar').css('background-color', '#ffffff');
           $('#home').css('color', '#00d2a5');
           $('.navbar-toggle').css('background-color', '#00d2a5');
-          $('.navbar-toggle').css('border', 'none');
+          $('.navbar-toggle').css('color', '#fff');
        }
    });
 });
