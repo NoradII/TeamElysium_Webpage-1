@@ -51,9 +51,9 @@ li.active a {
 }
 
 .tooltip-inner {
-  white-space:nowrap;
   max-width:none;
   background-color: #004637;
   color: white;
   font-size: 14px;
+  text-align: left;
 }
