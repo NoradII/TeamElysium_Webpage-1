@@ -117,7 +117,7 @@
                     </div>
                     <section id="team" class="bg-light-white">
                         <div class="row">
-                            <div class="col-sm-4 col-md-5 col-xs-6">
+                            <div class="col-sm-6 col-md-6 col-xs-6">
                                 <div class="team-member">
                                     <img src="images/team/CEO.jpg" class="img-responsive team-img" alt="">
                                     <h4>주성수｜朱晟秀</h4>
@@ -131,10 +131,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-sm-4 col-md-2 col-xs-0">
-                                
-                            </div>
-                            <div class="col-sm-4 col-md-5 col-xs-6">
+                            <div class="col-sm-6 col-md-6 col-xs-6">
                                 <div class="team-member">
                                     <img src="images/team/CTO2.jpg" class="img-responsive team-img" alt="">
                                     <h4>안영샘｜安泳샘</h4>
