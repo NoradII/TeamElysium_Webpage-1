@@ -117,7 +117,7 @@
                     </div>
                     <section id="team" class="bg-light-white">
                         <div class="row">
-                            <div class="col-sm-6 col-md-6 col-xs-6">
+                            <div class="col-sm-4 col-md-4 col-xs-4">
                                 <div class="team-member">
                                     <img src="images/team/CEO.jpg" class="img-responsive team-img" alt="">
                                     <h4>주성수｜朱晟秀</h4>
@@ -131,7 +131,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-sm-6 col-md-6 col-xs-6">
+                            <div class="col-sm-4 col-md-4 col-xs-4">
                                 <div class="team-member">
                                     <img src="images/team/CTO2.jpg" class="img-responsive team-img" alt="">
                                     <h4>안영샘｜安泳샘</h4>
@@ -141,6 +141,20 @@
                                         <li><a href="mailto:ysahn@teamelysium.kr"><i class="fa fa-envelope-o"></i></a>
                                         </li>
                                         <li><a href="https://www.facebook.com/saemy90?fref=ts" target="_blank"><i class="fa fa-facebook"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 col-md-4 col-xs-4">
+                                <div class="team-member">
+                                    <img src="images/team/PM.jpg" class="img-responsive team-img" alt="">
+                                    <h4>박은식｜朴殷植</h4>
+                                    <p>Eunsik Park</p>
+                                    <p class="text-muted">Project Manager</p>
+                                    <ul class="list-inline social-buttons">
+                                        <li><a href="mailto:espark@teamelysium.kr"><i class="fa fa-envelope-o"></i></a>
+                                        </li>
+                                        <li><a href="https://www.facebook.com/eunsik.park.1088" target="_blank"><i class="fa fa-facebook"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -302,23 +316,6 @@
         <script src="js/jquery.waypoints.min.js"></script>
         <!-- Main JS -->
         <script src="js/main.js"></script>
-
-        <!--
-        <div class="col-sm-4 col-md-4 col-xs-6">
-            <div class="team-member">
-                <img src="images/team/PM.jpg" class="img-responsive team-img" alt="">
-                <h4>박은식｜朴殷植</h4>
-                <p>Eunsik Park</p>
-                <p class="text-muted">Project Manager</p>
-                <ul class="list-inline social-buttons">
-                    <li><a href="mailto:espark@teamelysium.kr"><i class="fa fa-envelope-o"></i></a>
-                    </li>
-                    <li><a href="https://www.facebook.com/eunsik.park.1088" target="_blank"><i class="fa fa-facebook"></i></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        -->
 
     </body>
 </html>
