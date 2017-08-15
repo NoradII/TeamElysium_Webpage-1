@@ -144,7 +144,7 @@
                                         </li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> 
                             <div class="col-sm-4 col-md-4 col-xs-4">
                                 <div class="team-member">
                                     <img src="images/team/PM.jpg" class="img-responsive team-img" alt="">
@@ -239,22 +239,24 @@
                                         </ul>
                                     </div>
                                 </div>
+
                                 <div class="col-sm-6 col-md-6 col-xs-6">
                                     <div class="team-member">
-                                        <img src="images/team/Sanghun.jpg" class="img-responsive team-img" alt="">
-                                        <h4>표상훈</h4>
-                                        <p>Sanghun Pyo</p>
-                                        <p class="text-muted">Head Designer</p>
+                                        <img src="images/team/Soilder.jpg" class="img-responsive-o team-img" alt="">
+                                        <h4>한상우</h4>
+                                        <p>Sangwoo Han</p>
+                                        <p class="text-muted">Researcher</p>
                                         <ul class="list-inline social-buttons">
-                                            <li><a href="mailto:edin_crowwhite@naver.com"><i class="fa fa-envelope-o"></i></a>
+                                            <li><a href="#"><i class="fa fa-envelope-o"></i></a>
                                             </li>
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                                            </li>
+                                            <li><a href="https://www.facebook.com/profile.php?id=100008664406705&fref=ts" target="_blank"><i class="fa fa-facebook"></i></a>
+                                            </li>                                     
                                         </ul>
                                     </div>
                                 </div>
+                                
                             </div>
-                            <div class="col-md-6 col-xs-12">
+<!--                             <div class="col-md-6 col-xs-12">
                                 <div class="col-sm-6 col-md-6 col-xs-6">
                                     <div class="team-member">
                                         <img src="images/team/Soilder.jpg" class="img-responsive-o team-img" alt="">
@@ -271,7 +273,7 @@
                                 </div>
                                 <div class="col-sm-6 col-md-6 col-xs-6">
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </section>
 
