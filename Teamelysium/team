@@ -12,12 +12,12 @@
     <meta name="author" content="Team Elysium" />
     <meta http-equiv="Expires" content="Mon, 06 Jan 1990 00:00:01 GMT">
     <meta http-equiv="Cache-Control" content="no-cache">
-    <!-- 
+    <!--
     //////////////////////////////////////////////////////
 
-    FREE HTML5 TEMPLATE 
+    FREE HTML5 TEMPLATE
     DESIGNED & DEVELOPED by FREEHTML5.CO
-    
+
     Website:        http://freehtml5.co/
     Email:          info@freehtml5.co
     Twitter:        http://twitter.com/fh5co
@@ -69,27 +69,27 @@
         <!-- START #fh5co-header -->
         <header class="navbar navbar-fixed-top" role="header" id="navbar">
             <div class="container">
-                
+
                 <div class="navbar-header">
                     <h1 id="fh5co-logo" class="pull-left" style="margin: 5px 0px 0px 5px; display: inline-block;"><a href="index"><img src="images/logo.png" alt="Team Elysium Logo" width="81px"></a></h1>
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-2">
                         <i class="fa fa-bars" aria-hidden="true"></i>
                     </button>
-                    
+
                 </div>
-   
+
                 <div class="collapse navbar-collapse" id="navbar-collapse-2" style="text-align: center;">
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="index" style="font-size: 16px">Home</a></li>
                         <li><a href="products" style="font-size: 16px">Products</a></li>
                         <li class="active"><a id="team" href="team" style="font-size: 16px">Team</a></li>
                         <li><a href="contact" style="font-size: 16px">Contact</a></li>
-                       
+
                     </ul>
                 </div>
             </div>
         </header>
-        
+
         <div id="fh5co-hero">
             <a href="#fh5co-main" class="smoothscroll fh5co-arrow to-animate hero-animate-4"><i class="ti-angle-down"></i></a>
             <!-- End fh5co-arrow -->
@@ -102,7 +102,7 @@
                         </div>
                     </div>
                 </div>
-            </div>      
+            </div>
         </div>
 
 
@@ -117,7 +117,7 @@
                     </div>
                     <section id="team" class="bg-light-white">
                         <div class="row">
-                            <div class="col-sm-6 col-md-6 col-xs-6">
+                            <div class="col-sm-4 col-md-4 col-xs-4">
                                 <div class="team-member">
                                     <img src="images/team/CEO.jpg" class="img-responsive team-img" alt="">
                                     <h4>주성수｜朱晟秀</h4>
@@ -131,7 +131,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-sm-6 col-md-6 col-xs-6">
+                            <div class="col-sm-4 col-md-4 col-xs-4">
                                 <div class="team-member">
                                     <img src="images/team/CTO2.jpg" class="img-responsive team-img" alt="">
                                     <h4>안영샘｜安泳샘</h4>
@@ -144,8 +144,22 @@
                                         </li>
                                     </ul>
                                 </div>
-                            </div> 
-                            
+                            </div>
+                            <div class="col-sm-4 col-md-4 col-xs-4">
+                                <div class="team-member">
+                                    <img src="images/team/PM.jpg" class="img-responsive team-img" alt="">
+                                    <h4>박은식｜朴殷植</h4>
+                                    <p>Eunsik Park</p>
+                                    <p class="text-muted">Project Manager</p>
+                                    <ul class="list-inline social-buttons">
+                                        <li><a href="mailto:espark@teamelysium.kr"><i class="fa fa-envelope-o"></i></a>
+                                        </li>
+                                        <li><a href="https://www.facebook.com/eunsik.park.1088" target="_blank"><i class="fa fa-facebook"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
                         </div>
                         <div class="row">
                             <div class="col-md-6 col-xs-12">
@@ -160,7 +174,7 @@
                                             </li>
                                             <li><a href="https://www.facebook.com/no.gaurd?fref=ts" target="_blank"><i class="fa fa-facebook"></i></a>
                                             </li>
-                                            
+
                                         </ul>
                                     </div>
                                 </div>
@@ -174,7 +188,7 @@
                                             <li><a href="mailto:jay09144@gmail.com"><i class="fa fa-envelope-o"></i></a>
                                             </li>
                                             <li><a href="#"><i class="fa fa-facebook"></i></a>
-                                            </li>  
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -190,7 +204,7 @@
                                             <li><a href="mailto:nks004@gmail.com"><i class="fa fa-envelope-o"></i></a>
                                             </li>
                                             <li><a href="https://www.facebook.com/profile.php?id=100008180493869" target="_blank"><i class="fa fa-facebook"></i></a>
-                                            </li>    
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -204,7 +218,7 @@
                                             <li><a href="mailto:sonicyu21c@gmail.com"><i class="fa fa-envelope-o"></i></a>
                                             </li>
                                             <li><a href="https://www.facebook.com/sanghyeon.yu.56?fref=ts" target="_blank"><i class="fa fa-facebook"></i></a>
-                                            </li>                                         
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -237,11 +251,11 @@
                                             <li><a href="#"><i class="fa fa-envelope-o"></i></a>
                                             </li>
                                             <li><a href="https://www.facebook.com/profile.php?id=100008664406705&fref=ts" target="_blank"><i class="fa fa-facebook"></i></a>
-                                            </li>                                     
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
-                                
+
                             </div>
 <!--                             <div class="col-md-6 col-xs-12">
                                 <div class="col-sm-6 col-md-6 col-xs-6">
@@ -254,7 +268,7 @@
                                             <li><a href="#"><i class="fa fa-envelope-o"></i></a>
                                             </li>
                                             <li><a href="https://www.facebook.com/profile.php?id=100008664406705&fref=ts" target="_blank"><i class="fa fa-facebook"></i></a>
-                                            </li>                                     
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -267,8 +281,8 @@
 
                 </div>
                 <!-- END row -->
-            </div>      
- 
+            </div>
+
 
 
         <footer class="" role="contentinfo" id="fh5co-footer">
@@ -281,22 +295,9 @@
                 </div>
             </div>
         </footer>
-        <!-- <div class="col-sm-4 col-md-4 col-xs-4">
-                                <div class="team-member">
-                                    <img src="images/team/PM.jpg" class="img-responsive team-img" alt="">
-                                    <h4>박은식｜朴殷植</h4>
-                                    <p>Eunsik Park</p>
-                                    <p class="text-muted">Project Manager</p>
-                                    <ul class="list-inline social-buttons">
-                                        <li><a href="mailto:espark@teamelysium.kr"><i class="fa fa-envelope-o"></i></a>
-                                        </li>
-                                        <li><a href="https://www.facebook.com/eunsik.park.1088" target="_blank"><i class="fa fa-facebook"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div> -->
-            
-            
+
+
+
         <!-- jQuery -->
         <script src="js/jquery-1.10.2.min.js"></script>
         <!-- jQuery Easing -->
@@ -322,6 +323,3 @@
 
     </body>
 </html>
-
-
-
