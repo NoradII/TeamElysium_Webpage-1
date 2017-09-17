@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html class="no-js"> <!--<![endif]-->
     <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,52 +8,121 @@
     <meta name="keywords" content="Team Elysium" />
     <meta name="author" content="Team Elysium" />
     <meta http-equiv="Expires" content="Mon, 06 Jan 1990 00:00:01 GMT">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Cache-Control" content="no-cache">
 
     <link rel="shortcut icon" href="./images/title_icon.png" />
     <!-- Google Webfont -->
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-    <!-- Themify Icons -->
-    <link rel="stylesheet" href="css/themify-icons.css">
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <!-- Owl Carousel -->
+  	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+  	<!-- Themify Icons -->
+  	<link rel="stylesheet" href="css/themify-icons.css">
+  	<!-- Bootstrap -->
+  	<link rel="stylesheet" href="css/bootstrap.css">
+	  <!-- Owl Carousel -->
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <!-- Magnific Popup -->
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <!-- Superfish -->
-    <link rel="stylesheet" href="css/superfish.css">
-    <!-- Easy Responsive Tabs -->
-    <link rel="stylesheet" href="css/easy-responsive-tabs.css">
-    <!-- Animate.css -->
-    <link rel="stylesheet" href="css/animate.css">
-    <!-- Theme Style -->
-    <link rel="stylesheet" href="css/style.css">
+  	<!-- Easy Responsive Tabs -->
+  	<link rel="stylesheet" href="css/easy-responsive-tabs.css">
+  	<!-- Animate.css -->
+  	<link rel="stylesheet" href="css/animate.css">
+  	<!-- Theme Style -->
+  	<link rel="stylesheet" href="css/style.css">
 
     <!-- Theme CSS -->
     <link href="css/agency.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="./css/team.css">
+    <link rel="stylesheet" href="./css/news.css">
 
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <!-- Modernizr JS -->
     <script src="js/modernizr-2.6.2.min.js"></script>
+    <script src="js/jssor.slider-26.1.5.min.js" type="text/javascript"></script>
 
     <!-- Bootstrap Jquery -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 
-    <script src="./js/team.js"></script>
-    <!-- FOR IE9 below -->
-    <!--[if lt IE 9]>
-    <script src="js/respond.min.js"></script>
-    <![endif]-->
+    <script src="./js/news.js"></script>
+    <script type="text/javascript">
+        jssor_1_slider_init = function() {
 
+            var jssor_1_SlideshowTransitions = [
+              {$Duration:1200,x:0.3,$During:{$Left:[0.3,0.7]},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,x:-0.3,$SlideOut:true,$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,x:-0.3,$During:{$Left:[0.3,0.7]},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,x:0.3,$SlideOut:true,$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,y:0.3,$During:{$Top:[0.3,0.7]},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,y:-0.3,$SlideOut:true,$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,y:-0.3,$During:{$Top:[0.3,0.7]},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,y:0.3,$SlideOut:true,$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,x:0.3,$Cols:2,$During:{$Left:[0.3,0.7]},$ChessMode:{$Column:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,x:0.3,$Cols:2,$SlideOut:true,$ChessMode:{$Column:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,y:0.3,$Rows:2,$During:{$Top:[0.3,0.7]},$ChessMode:{$Row:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,y:0.3,$Rows:2,$SlideOut:true,$ChessMode:{$Row:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,y:0.3,$Cols:2,$During:{$Top:[0.3,0.7]},$ChessMode:{$Column:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,y:-0.3,$Cols:2,$SlideOut:true,$ChessMode:{$Column:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,x:0.3,$Rows:2,$During:{$Left:[0.3,0.7]},$ChessMode:{$Row:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,x:-0.3,$Rows:2,$SlideOut:true,$ChessMode:{$Row:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,x:0.3,y:0.3,$Cols:2,$Rows:2,$During:{$Left:[0.3,0.7],$Top:[0.3,0.7]},$ChessMode:{$Column:3,$Row:12},$Easing:{$Left:$Jease$.$InCubic,$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,x:0.3,y:0.3,$Cols:2,$Rows:2,$During:{$Left:[0.3,0.7],$Top:[0.3,0.7]},$SlideOut:true,$ChessMode:{$Column:3,$Row:12},$Easing:{$Left:$Jease$.$InCubic,$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,$Delay:20,$Clip:3,$Assembly:260,$Easing:{$Clip:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,$Delay:20,$Clip:3,$SlideOut:true,$Assembly:260,$Easing:{$Clip:$Jease$.$OutCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,$Delay:20,$Clip:12,$Assembly:260,$Easing:{$Clip:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,$Delay:20,$Clip:12,$SlideOut:true,$Assembly:260,$Easing:{$Clip:$Jease$.$OutCubic,$Opacity:$Jease$.$Linear},$Opacity:2}
+            ];
+
+            var jssor_1_options = {
+              $AutoPlay: 1,
+              $SlideshowOptions: {
+                $Class: $JssorSlideshowRunner$,
+                $Transitions: jssor_1_SlideshowTransitions,
+                $TransitionsOrder: 1
+              },
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$
+              },
+              $ThumbnailNavigatorOptions: {
+                $Class: $JssorThumbnailNavigator$,
+                $Cols: 6,
+                $Orientation: 2,
+                $Align: 156
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*#region responsive code begin*/
+
+            var MAX_WIDTH = 980;
+
+            function ScaleSlider() {
+                var containerElement = jssor_1_slider.$Elmt.parentNode;
+                var containerWidth = containerElement.clientWidth;
+
+                if (containerWidth) {
+
+                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                    jssor_1_slider.$ScaleWidth(expectedWidth);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+
+            ScaleSlider();
+
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            /*#endregion responsive code end*/
+        };
+    </script>
     </head>
-    <body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+    <!--oncontextmenu="return false" ondragstart="return false" onselectstart="return false"-->
+    <body>
         <!-- START #fh5co-header -->
         <header class="navbar navbar-fixed-top" role="header" id="navbar">
             <div class="container">
-
+              <nav>
                 <div class="navbar-header">
                     <h1 id="fh5co-logo" class="pull-left" style="margin: 5px 0px 0px 5px; display: inline-block;"><a href="index"><img src="images/logo.png" alt="Team Elysium Logo" width="81px"></a></h1>
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-2">
@@ -73,7 +139,8 @@
                         <li><a href="team">Team</a></li>
                         <li><a href="contact" style="font-size: 16px">Contact</a></li>
                     </ul>
-                </div>
+                </div><!-- .navbar-collapse -->
+              </nav>
             </div>
         </header>
 
@@ -91,186 +158,121 @@
                 </div>
             </div>
         </div>
-
-
-        <div id="fh5co-main">
-            <div class="container">
-                <div class="row" id="fh5co-works">
-                    <!-- Team Section -->
-                    <div class="fh5co-spacer fh5co-spacer-sm"></div>
-                    <div class="col-md-8 col-md-offset-2 text-center fh5co-section-heading work-box">
-                        <h3 class="fh5co-lead">Time flies like an arrow.</h3>
-                        <div class="fh5co-spacer fh5co-spacer-sm"></div>
+        <div id="fh5co-main" style="padding: 40px 0">
+          <div class="container">
+            <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:580px;overflow:hidden;visibility:hidden;">
+              <!-- Loading Screen -->
+              <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+                  <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
+              </div>
+              <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:580px;overflow:hidden;">
+                <div>
+                    <img data-u="image" src="./images/news/cto_news.jpg" />
+                    <div data-u="thumb">
+                        <img data-u="thumb" class="i" src="./images/news/cto_news.jpg" />
+                        <span class="ti">CTO</span><br />
+                        <span class="d">안영샘 석사 주목!</span>
                     </div>
-                    <section id="team" class="bg-light-white">
-                        <div class="row">
-                            <div class="col-sm-4 col-md-4 col-xs-4">
-                                <div class="team-member">
-                                    <img src="images/team/CEO2.png" class="img-responsive team-img" alt="">
-                                    <h4>주성수｜朱晟秀</h4>
-                                    <p>Seongsu Joo</p>
-                                    <p class="text-muted">CEO</p>
-                                    <ul class="list-inline social-buttons">
-                                        <li><a href="mailto:seongsu.joo@teamelysium.kr"><i class="fa fa-envelope-o"></i></a>
-                                        </li>
-                                        <li><a href="https://www.facebook.com/seongsu.joo" target="_blank"><i class="fa fa-facebook"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-sm-4 col-md-4 col-xs-4">
-                                <div class="team-member">
-                                    <img src="images/team/CTO2.jpg" class="img-responsive team-img" alt="">
-                                    <h4>안영샘｜安泳샘</h4>
-                                    <p>Yeongsaem Ahn</p>
-                                    <p class="text-muted">CTO</p>
-                                    <ul class="list-inline social-buttons">
-                                        <li><a href="mailto:ysahn@teamelysium.kr"><i class="fa fa-envelope-o"></i></a>
-                                        </li>
-                                        <li><a href="https://www.facebook.com/saemy90?fref=ts" target="_blank"><i class="fa fa-facebook"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-sm-4 col-md-4 col-xs-4">
-                                <div class="team-member">
-                                    <img src="images/team/PM.jpg" class="img-responsive team-img" alt="">
-                                    <h4>박은식｜朴殷植</h4>
-                                    <p>Eunsik Park</p>
-                                    <p class="text-muted">Project Manager</p>
-                                    <ul class="list-inline social-buttons">
-                                        <li><a href="mailto:espark@teamelysium.kr"><i class="fa fa-envelope-o"></i></a>
-                                        </li>
-                                        <li><a href="https://www.facebook.com/eunsik.park.1088" target="_blank"><i class="fa fa-facebook"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 col-xs-12">
-                                <div class="col-sm-6 col-md-6 col-xs-6">
-                                    <div class="team-member">
-                                        <img src="images/team/Juhwan.jpg" class="img-responsive team-img" alt="">
-                                        <h4>김주환</h4>
-                                        <p>Juhwan Kim</p>
-                                        <p class="text-muted">Researcher</p>
-                                        <ul class="list-inline social-buttons">
-                                            <li><a href="mailto:kimjh7204@gmail.com"><i class="fa fa-envelope-o"></i></a>
-                                            </li>
-                                            <li><a href="https://www.facebook.com/no.gaurd?fref=ts" target="_blank"><i class="fa fa-facebook"></i></a>
-                                            </li>
-
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6 col-md-6 col-xs-6">
-                                    <div class="team-member">
-                                        <img src="images/team/Jongwon.jpg" class="img-responsive team-img" alt="">
-                                        <h4>이종원</h4>
-                                        <p>Jongwon Lee</p>
-                                        <p class="text-muted">Researcher</p>
-                                        <ul class="list-inline social-buttons">
-                                            <li><a href="mailto:jay09144@gmail.com"><i class="fa fa-envelope-o"></i></a>
-                                            </li>
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-xs-12">
-                                <div class="col-sm-6 col-md-6 col-xs-6">
-                                    <div class="team-member">
-                                        <img src="images/team/Hyungbin.jpg" class="img-responsive team-img" alt="">
-                                        <h4>안형빈</h4>
-                                        <p>Hyoungbin Ahn</p>
-                                        <p class="text-muted">Security Engineer</p>
-                                        <ul class="list-inline social-buttons">
-                                            <li><a href="mailto:nks004@gmail.com"><i class="fa fa-envelope-o"></i></a>
-                                            </li>
-                                            <li><a href="https://www.facebook.com/profile.php?id=100008180493869" target="_blank"><i class="fa fa-facebook"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6 col-md-6 col-xs-6">
-                                    <div class="team-member">
-                                        <img src="images/team/Sanghyun.jpg" class="img-responsive team-img" alt="">
-                                        <h4>유상현</h4>
-                                        <p>Sanghyeon Yu</p>
-                                        <p class="text-muted">Researcher</p>
-                                        <ul class="list-inline social-buttons">
-                                            <li><a href="mailto:sonicyu21c@gmail.com"><i class="fa fa-envelope-o"></i></a>
-                                            </li>
-                                            <li><a href="https://www.facebook.com/sanghyeon.yu.56?fref=ts" target="_blank"><i class="fa fa-facebook"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 col-xs-12">
-                                <div class="col-sm-6 col-md-6 col-xs-6">
-                                    <div class="team-member">
-                                        <img src="images/team/Sungho.jpg" class="img-responsive team-img" alt="">
-                                        <h4>송성호</h4>
-                                        <p>Sungho Song</p>
-                                        <p class="text-muted">Researcher</p>
-                                        <ul class="list-inline social-buttons">
-                                            <li><a href="mailto:songsungho7@gmail.com"><i class="fa fa-envelope-o"></i></a>
-                                            </li>
-                                            <li><a href="https://www.facebook.com/profile.php?id=100002073397118" target="_blank"><i class="fa fa-facebook"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                <div class="col-sm-6 col-md-6 col-xs-6">
-                                    <div class="team-member">
-                                        <img src="images/team/Soilder.jpg" class="img-responsive-o team-img" alt="">
-                                        <h4>한상우</h4>
-                                        <p>Sangwoo Han</p>
-                                        <p class="text-muted">Researcher</p>
-                                        <ul class="list-inline social-buttons">
-                                            <li><a href="#"><i class="fa fa-envelope-o"></i></a>
-                                            </li>
-                                            <li><a href="https://www.facebook.com/profile.php?id=100008664406705&fref=ts" target="_blank"><i class="fa fa-facebook"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="col-md-6 col-xs-12">
-                                <div class="col-sm-6 col-md-6 col-xs-6">
-                                    <div class="team-member">
-                                        <img src="images/team/Sohee.jpg" class="img-responsive-o team-img" alt="">
-                                        <h4>한소희</h4>
-                                        <p>Sohee Han</p>
-                                        <p class="text-muted">Researcher</p>
-                                        <ul class="list-inline social-buttons">
-                                            <li><a href="#"><i class="fa fa-envelope-o"></i></a>
-                                            </li>
-                                            <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6 col-md-6 col-xs-6">
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
-
                 </div>
-                <!-- END row -->
+                <div>
+                    <img data-u="image" src="./images/news/cto_news2.jpg" />
+                    <div data-u="thumb">
+                        <img data-u="thumb" class="i" src="./images/news/cto_news2.jpg" />
+                        <span class="ti">CTO</span><br/>
+                        <span class="d">인하스타트업 대상!</span>
+                    </div>
+                </div>
+                <div>
+                  <img data-u="image" src="./images/news/cto_news3.png" />
+                  <div data-u="thumb">
+                      <img data-u="thumb" class="i" src="./images/news/cto_news3.png" />
+                      <span class="ti">CTO</span><br />
+                      <span class="d">오늘만 사는 개발자</span>
+                  </div>
+                </div>
+                <div>
+                    <img data-u="image" src="img/025.jpg" />
+                    <div data-u="thumb">
+                        <img data-u="thumb" class="i" src="img/025-s96x48.jpg" />
+                        <span class="ti">Title</span><br />
+                        <span class="d">Slide Description</span>
+                    </div>
+                </div>
+                <div>
+                    <img data-u="image" src="img/026.jpg" />
+                    <div data-u="thumb">
+                        <img data-u="thumb" class="i" src="img/026-s96x48.jpg" />
+                        <span class="ti">Title</span><br />
+                        <span class="d">Slide Description</span>
+                    </div>
+                </div>
+                <a data-u="any" href="https://www.jssor.com" style="display:none">carousel slider</a>
+              </div>
+              <!-- Thumbnail Navigator -->
+              <div data-u="thumbnavigator" class="jssort121" style="position:absolute;left:0px;top:0px;width:268px;height:380px;overflow:hidden;cursor:default;" data-autocenter="2" data-scale-left="0.75">
+                  <div data-u="slides">
+                      <div data-u="prototype" class="p" style="width:268px;height:68px;">
+                          <div data-u="thumbnailtemplate" class="t"></div>
+                      </div>
+                  </div>
+              </div>
+              <!-- Bullet Navigator -->
+              <div data-u="navigator" class="jssorb111" style="position:absolute;bottom:12px;right:12px;" data-scale="0.5">
+                  <div data-u="prototype" class="i" style="width:24px;height:24px;font-size:12px;line-height:24px;">
+                      <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;z-index:-1;">
+                          <circle class="b" cx="8000" cy="8000" r="3000"></circle>
+                      </svg>
+                      <div data-u="numbertemplate" class="n"></div>
+                  </div>
+              </div>
             </div>
 
+            <div class="fh5co-spacer fh5co-spacer-md"></div>
 
+            <div class="row">
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img class="news_item" src="./images/news/cto_news.jpg" alt="...">
+                  <div class="caption">
+                    <h3>안영샘 석사 주목!</h3>
+                    <p>한 때 ‘게임 중독자’에서 유망한 소프트웨어 개발자로 거듭나고 있는 이가 있다.<br><br>
+                    인하대 컴퓨터공학과에서 석·박사 통합과정을 밟고 있는 안영샘(28)씨가 소프트웨어 개발 분야에서 두각을 나타내고 있다.
+                    </p>
+                  </div>
+                  <p class="text-center"><a href="#" class="btn btn-primary" role="button">Read more</a></p>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img class="news_item" src="./images/news/cto_news2.jpg" alt="...">
+                  <div class="caption">
+                    <h3>인하스타트업 대상!</h3>
+                    <p>안영생 CTO와 김주환 Researcher<br><br>
+
+                    </p>
+                  </div>
+                  <p class="text-center"><a href="#" class="btn btn-primary" role="button">Read more</a></p>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img class="news_item" src="./images/news/cto_news3.png" alt="...">
+                  <div class="caption">
+                    <h3>오늘만 사는 개발자!</h3>
+                    <p><br><br>
+
+                    </p>
+                  </div>
+                  <p class="text-center"><a href="#" class="btn btn-primary" role="button">Read more</a></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="fh5co-spacer fh5co-spacer-md"></div>
+          </div>
+        </div>
 
         <footer class="" role="contentinfo" id="fh5co-footer">
             <div class="col-md-12 container">
@@ -282,31 +284,28 @@
                 </div>
             </div>
         </footer>
-
-
-
+        <script type="text/javascript">jssor_1_slider_init();</script>
         <!-- jQuery -->
-        <script src="js/jquery-1.10.2.min.js"></script>
-        <!-- jQuery Easing -->
-        <script src="js/jquery.easing.1.3.js"></script>
-        <!-- Bootstrap -->
-        <script src="js/bootstrap.js"></script>
-        <!-- Owl carousel -->
-        <script src="js/owl.carousel.min.js"></script>
-        <!-- Magnific Popup -->
-        <script src="js/jquery.magnific-popup.min.js"></script>
-        <!-- Superfish -->
-        <script src="js/hoverIntent.js"></script>
-        <script src="js/superfish.js"></script>
-        <!-- Easy Responsive Tabs -->
-        <script src="js/easyResponsiveTabs.js"></script>
-        <!-- FastClick for Mobile/Tablets -->
-        <script src="js/fastclick.js"></script>
-
-        <!-- Waypoints -->
-        <script src="js/jquery.waypoints.min.js"></script>
-        <!-- Main JS -->
-        <script src="js/main.js"></script>
-
+    		<script src="js/jquery-1.10.2.min.js"></script>
+    		<!-- jQuery Easing -->
+    		<script src="js/jquery.easing.1.3.js"></script>
+    		<!-- Bootstrap -->
+    		<script src="js/bootstrap.js"></script>
+    		<!-- Owl carousel -->
+    		<script src="js/owl.carousel.min.js"></script>
+    		<!-- Magnific Popup -->
+    		<script src="js/jquery.magnific-popup.min.js"></script>
+    		<!-- Superfish -->
+    		<script src="js/hoverIntent.js"></script>
+    		<script src="js/superfish.js"></script>
+    		<!-- Easy Responsive Tabs -->
+    		<script src="js/easyResponsiveTabs.js"></script>
+    		<!-- FastClick for Mobile/Tablets
+    		<script src="js/fastclick.js"></script>
+    		 -->
+    		<!-- Waypoints -->
+    		<script src="js/jquery.waypoints.min.js"></script>
+    		<!-- Main JS -->
+    		<script src="js/main.js"></script>
     </body>
 </html>
